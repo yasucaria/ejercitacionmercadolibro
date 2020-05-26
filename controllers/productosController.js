@@ -6,10 +6,10 @@ listado: function(req, res){
     res.render("listadoProductos", {title: "Listado de productos"});
 },
 detalle: function(req, res){
-    res.render("detalle", {title: "Detalle de productos"});
+    res.render("detalleProducto", {title: "Detalle de productos"});
 },
 agregar: function(req, res){
-    res.render("agregar", {title: "Formulario de producto"})
+    res.render("agregarProducto")
 }
 };
 
