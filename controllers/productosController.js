@@ -6,7 +6,7 @@ listado: function(req, res){
     res.render("listadoProductos", {title: "Listado de productos"});
 },
 detalle: function(req, res){
-    res.render("detalleProducto", {title: "Detalle de productos"});
+    res.render("detalleProducto");
 },
 agregar: function(req, res){
     res.render("agregarProducto")
