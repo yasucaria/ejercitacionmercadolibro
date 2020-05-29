@@ -10,11 +10,23 @@ detalle: function(req, res){
 },
 agregar: function(req, res){
     res.render("agregarProducto")
+},
+create: function(req, res){
+    res.render("")
+},
+modificacion: function(req, res){
+    res.render("")
+},
+baja: function(req, res){
+    res.render("")
+},
+agregar: function(req, res){
+    res.render("")
+},
+alta: function(req, res){
+    res.render("")
 }
 };
-
-module.exports= "productosController"
-
 
 
 module.exports= productosController;
