@@ -9,6 +9,5 @@ router.get("/create", productosController.alta);
 router.get("/:idProducto/edit", productosController.modificacion);
 router.put("/:idProducto", productosController.modificacion);
 router.delete("/:idProducto", productosController.baja);
-router.get("/agregar", productosController.agregar);
 
 module.exports = router;
