@@ -6,7 +6,9 @@ listado: function(req, res){
     res.render("listadoProductos", {title: "Listado de productos"});
 },
 detalle: function(req, res){
-    res.render("detalleProducto");
+let idProductoElegido = req.params.idProducto;
+const productoClickeado = listadoProductos.find(producto => req.params.idProducto)
+    res.render("detalleProducto", {title: req.params.idProducto});
 },
 agregar: function(req, res){
     res.render("agregarProducto")

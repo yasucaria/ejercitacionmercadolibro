@@ -20,14 +20,14 @@ Al iniciar el Sprint 2, uno de los integrantes abandonó el curso, por lo cual s
 # Retrospectiva Sprint 3!
 Principales conclusiones de la retro del tercer sprint.
 ## Start Doing:
-
+Proponer objetivos diarios para optimizar la organización de las tareas. 
  ## More Of:
-
+Reuniones periódicas con mentora para despejar dudas.
  ## Keep Doing:
-
+Comunicar cada avance individual y avisar qué es lo que resta por hacer.
  ## Less Off:
-
+Dejar que se acumulen tareas.
  ## Stop Doing:
-
+Definir tareas una vez avanzados los avances. 
  # Observaciones:
 
