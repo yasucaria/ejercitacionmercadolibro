@@ -1,5 +1,5 @@
 # Retrospectiva Sprint 2!
-Principales conclusiones de la retro del primer sprint.
+Principales conclusiones de la retro del segundo sprint.
 ## Start Doing:
  - **Reuniones periódicas para seguimiento de avances.**
  - **Compromiso de dedicación periódica en el tiempo posible de cada integrante sobre las actividades a resolver de los siguientes Sprints.**
@@ -16,3 +16,18 @@ Principales conclusiones de la retro del primer sprint.
  - **Intentar que todos participen en todo el procedimiento.**
 # Observaciones:
 Al iniciar el Sprint 2, uno de los integrantes abandonó el curso, por lo cual se debió repensar la conformación del equipo. Se decidió dejar el grupo con los integrantes que quedaron asignando un tutor de apoyo aguardando el contacto del tutor. 
+
+# Retrospectiva Sprint 3!
+Principales conclusiones de la retro del tercer sprint.
+## Start Doing:
+
+ ## More Of:
+
+ ## Keep Doing:
+
+ ## Less Off:
+
+ ## Stop Doing:
+
+ # Observaciones:
+
