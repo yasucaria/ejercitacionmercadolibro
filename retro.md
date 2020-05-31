@@ -30,4 +30,4 @@ Dejar que se acumulen tareas.
  ## Stop Doing:
 Definir tareas una vez avanzados los avances. 
  # Observaciones:
-
+Se anuló el repo anterior y se inició uno nuevo con un nuevo template HTML. Link de referencia del template: https://colorlib.com/wp/template/essence/
