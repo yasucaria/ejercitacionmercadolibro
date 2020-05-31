@@ -7,6 +7,7 @@
 No se renderizan vistas désde las rutas cuando no se prensenta ningún error pero da 404 not found. 
 ## Qué va a hacer hoy:
 Agregar funciones a ejecutar en cada método y ruta.
+
 ## Fran Ponce
 
 ## Qué hizo ayer:
