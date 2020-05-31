@@ -31,3 +31,4 @@ Dejar que se acumulen tareas.
 Definir tareas una vez avanzados los avances. 
  # Observaciones:
 Se anuló el repo anterior y se inició uno nuevo con un nuevo template HTML. Link de referencia del template: https://colorlib.com/wp/template/essence/
+Desde el primer momento que tuvimos problemas con el repositorio y comunicado a profesor, se trabajo con mentora en borrar lo que estaba subido mal para volver a cargar nuevo archivos. 
