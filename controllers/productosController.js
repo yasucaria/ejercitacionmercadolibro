@@ -1,6 +1,6 @@
 const fs = require('fs');
 const listadoProductos = JSON.parse(fs.readFileSync('./data/detalleProductos.json', 'utf-8'));
-
+console.log(listadoProductos)
 const productosController = {
 "listado" : function(req, res){
     res.render("listadoProductos", {"listadoProductos": listadoProductos});
