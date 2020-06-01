@@ -1,6 +1,6 @@
 const fs = require('fs');
 const listadoProductos = JSON.parse(fs.readFileSync('./data/detalleProductos.json', 'utf-8'));
-console.log(listadoProductos)
+
 const productosController = {
 "listado" : function(req, res){
     res.render("listadoProductos", {"listadoProductos": listadoProductos});
@@ -8,7 +8,7 @@ const productosController = {
 "detalle" : function(req, res){
 let idProductoElegido = req.params.idProducto;
 const productoClickeado = listadoProductos.find(producto => req.params.idProducto)
-    res.render("detalleProducto", {title: req.params.idProducto});
+    res.render("detalleProducto", {"productoClickeado": req.params.idProducto});
 },
 "alta" : function(req, res){
     res.render("agregarProducto");
