@@ -10,13 +10,13 @@ let idProductoElegido = req.params.idProducto;
 const productoClickeado = listadoProductos.find(producto => req.params.idProducto)
     res.render("detalleProducto", {"productoClickeado": req.params.idProducto});
 },
-"alta" : function(req, res){
+"create" : function(req, res){
     res.render("agregarProducto");
 },
-"modificacion": function(req, res){
+"update": function(req, res){
     res.render("")
 },
-"baja": function(req, res){
+"delete": function(req, res){
     res.render("")
 },
 
