@@ -1,4 +1,6 @@
 const fs = require('fs');
+const path = require("path");
+const productsPath = path.join(__dirname, '../data/detalleProductos.json');
 const listadoProductos = JSON.parse(fs.readFileSync('./data/detalleProductos.json', 'utf-8'));
 
 const productosController = {
@@ -6,9 +8,11 @@ const productosController = {
     res.render("listadoProductos", {"listadoProductos": listadoProductos});
 },
 "detalle" : function(req, res){
-let idProductoElegido = req.params.idProducto;
-const productoClickeado = listadoProductos.find(producto => req.params.idProducto)
-    res.render("detalleProducto", {"productoClickeado": req.params.idProducto});
+let idProductoElegido = req.params.idProduct;
+const productoAMostrar = listadoProductos.find(producto => {
+    return listadoProductos.idProduct == productoAMostrar
+});
+    res.render("detalleProducto", {"productoClickeado": productoAMostrar});
 },
 "create" : function(req, res){
     res.render("agregarProducto");
@@ -17,7 +21,8 @@ const productoClickeado = listadoProductos.find(producto => req.params.idProduct
     res.render("")
 },
 "delete": function(req, res){
-    res.render("")
+
+    res.redirect("/product")
 },
 
 };
