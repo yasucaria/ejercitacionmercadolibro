@@ -10,7 +10,7 @@ const productosController = {
 "detalle" : function(req, res){
 let idProductoElegido = req.params.idProduct;
 const productoAMostrar = listadoProductos.find(producto => {
-    return listadoProductos.idProduct == productoAMostrar
+    return listadoProductos.idProduct == idProductoElegido
 });
     res.render("detalleProducto", {"productoClickeado": productoAMostrar});
 },

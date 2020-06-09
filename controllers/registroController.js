@@ -16,7 +16,7 @@ password: req.body.password
  let usuarioJSON = JSON.stringify(usuario);
  fs.appendFileSync("users.json", usuarioJSON);
 
-        res.redirect('users', {titulo: "Gracias por registrarte en Mercado Libro"});
+        res.redirect('users', {title: "Gracias por registrarte en Mercado Libro"});
       }
 }
 
