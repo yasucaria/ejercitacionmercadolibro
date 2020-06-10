@@ -1,10 +1,7 @@
 const fs = require('fs');
-const path = require("path");
-const usersPath = path.join(".", "data", "users.json");
-const listadoUsuarios = JSON.parse(fs.readFileSync(usersPath, 'utf-8'));
 
 const registroController = {
-  register: function(req, res){
+  register : function(req, res){
     res.render("users")
   },
     create: function (req, res) {
@@ -14,10 +11,11 @@ email: req.body.email,
 password: req.body.password
 }
 let archivoUsuarios = fs.readFileSync("users.json", {encoding: "utf-8"});
+let usuarios;
 if(archivoUsuarios == ""){
-  let usuarios = [];
+   usuarios = [];
 }else{
-  let usuarios = JSON.parse(archivoUsuarios);
+   usuarios = JSON.parse(archivoUsuarios);
 }
 usuarios.push(usuario);
 
