@@ -20,8 +20,16 @@ const productoAMostrar = listadoProductos.find(producto => {
         titulo: req.body.titulo,
         categoria: req.body.categoria
     }
-    let productoJSON = JSON.stringify(producto);
-    fs.appendFileSync("detalleProductos.json", productoJSON);
+    let archivoProductos = fs.readFileSync("detalleProductos.json", {encoding: "utf-8"});
+if(archivoProductos == ""){
+  let productos = [];
+}else{
+  let productos = JSON.parse(archivoProductos);
+}
+usuarios.push(producto);
+
+let productoJSON = JSON.stringify(productos);
+fs.appendFileSync("detalleProducto.json", productoJSON);
 
     res.redirect("agregarProducto", {titulo: "Se agregó un nuevo producto"});
 },
